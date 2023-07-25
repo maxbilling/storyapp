@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Time</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/slick.css" type="text/css"/> 
+    <link rel="stylesheet" href="../static/css/templatemo-style.css">
+
+</head>
+<body> 
+    <video autoplay muted loop id="bg-video">
+        <source src="../static/video/gfp-astro-timelapse.mp4" type="video/mp4">
+    </video>
+    <form action ="#" method = "post">
+      <div class="container-fluid tm-content-container">
+        <ul class="cd-hero-slider mb-0 py-5">
+          <li class="px-3" data-page-no="1">
+            <div class="page-width-1 page-left">
+               <div class="position-relative page-width-1 page-right tm-border-top tm-border-bottom">
+                  <h2 class="mb-4">Welcome to Story Time</h2>
+                  Time to create a exiciting story starring your favorit characters, the places you like most and the lesson you want it to be about. Click next and select                     the characters! Lets go and have fun.
+                </div>
+                <div class="circle intro-circle-1"></div>
+                <div class="circle intro-circle-2"></div>
+                <div class="circle intro-circle-3"></div>
+                <div class="circle intro-circle-4"></div>
+              </div>
+              <div class="text-center">
+                <a href="#0" data-page-no="2" class="btn btn-primary tm-intro-btn tm-page-link">
+                  Next
+                </a>
+              </div>            
+          </li>
+          <li class="px-3" data-page-no="2">
+            <div class="page-width-1 page-left">
+               <div class="position-relative page-width-1 page-right tm-border-top tm-border-bottom">
+                     <h2>Enter your characters</h2>
+                     Pick three characters and enter their names below.
+                     <br/>
+                        <input name=name1 type="text" placeholder="Name of Character 1">
+                        <br/>
+                        <input name=name2 type="text" placeholder="Name of Character 2">
+                        <br/>
+                        <input name=name3 type="text" placeholder="Name of Character 3">
+                  <p class="mb-4">
+                </div>
+                <div class="circle intro-circle-1"></div>
+                <div class="circle intro-circle-2"></div>
+                <div class="circle intro-circle-3"></div>
+                <div class="circle intro-circle-4"></div>
+              </div>
+              <div class="text-center">
+                <a href="#0" data-page-no="3" class="btn btn-primary tm-intro-btn tm-page-link">
+                  Next
+                </a>
+              </div>            
+          </li>
+          <li class="px-3" data-page-no="3">
+            <div class="page-width-1 page-left">
+               <div class="position-relative page-width-1 page-right tm-border-top tm-border-bottom">
+                      <h2>Enter the places</h2>
+                      Pick three places and enter them below.
+                        <br/>
+                        <input name=place1 type="text" placeholder="Place 1">
+                        <br/>
+                        <input name=place2 type="text" placeholder="Place 2">
+                        <br/>
+                        <input name=place3 type="text" placeholder="Place 3">
+                  <p class="mb-4">
+                </div>
+                <div class="circle intro-circle-1"></div>
+                <div class="circle intro-circle-2"></div>
+                <div class="circle intro-circle-3"></div>
+                <div class="circle intro-circle-4"></div>
+              </div>
+              <div class="text-center">
+                <a href="#0" data-page-no="4" class="btn btn-primary tm-intro-btn tm-page-link">
+                  Next
+                </a>
+              </div>            
+          </li>
+          <li class="px-3" data-page-no="4">
+            <div class="page-width-1 page-left">
+               <div class="position-relative page-width-1 page-height-1 tm-border-top tm-border-bottom">
+                   <h2>Select a lesson</h2>
+                   Select what the story should be about.
+                   <br />
+                    <select classt = "select-box" name=lesson>
+                          <option value="love">Love</option>
+                          <option value="friendship">Friendship</option>
+                          <option value="trust">Trust</option>
+                          <option value="honesty">Honesty</option>
+                          <option value="respect">Respect</option>
+                          </select>
+                  <p class="mb-4">
+                </div>
+                <div class="circle intro-circle-1"></div>
+                <div class="circle intro-circle-2"></div>
+                <div class="circle intro-circle-3"></div>
+                <div class="circle intro-circle-4"></div>
+              </div>
+              <div class="text-center">
+                <input type="submit" class="btn btn-primary tm-intro-btn tm-page-link" value="generate">
+                </button>
+              </div>            
+          </li>
+        </ul>
+    </div> 
+  </div>
+    </form>
+  <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
+  <div id="loader-wrapper">            
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>  
+  <script src="../static/js/jquery-3.5.1.min.js"></script>
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script src="../static/js/slick.js"></script>
+  <script src="../static/js/templatemo-script.js"></script>
+</body>
+</html>

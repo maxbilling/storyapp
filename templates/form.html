@@ -1,0 +1,30 @@
+<html>
+<script>
+    function startStory(){
+        let xhr = new XMLHttpRequest();
+        xhr.open("POST", "#");
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.setRequestHeader("Content-Type", "application/json");   
+        
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                console.log(xhr.status);
+                console.log(xhr.responseText);
+            }};
+
+        let data = `{
+        "Id": 78912,
+        "Customer": "Jason Sweet",
+        "Quantity": 1,
+        "Price": 18.00
+        }`;
+
+        xhr.send(data);}
+</script>
+<body>
+<button onclick="startStory()"></button>
+<form action="#" method="POST">
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
