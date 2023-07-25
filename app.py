@@ -27,7 +27,7 @@ def standardpage():
 ## make the API call and store the result in a variable story
 ## first define the context using {placeholders} 
 ## handover the values for the placeholders in the input: section
-        story= (predict_large_language_model_sample("project-a-01-387515", "text-bison@001", 1, 582, 0.81, 40, 
+        story= (predict_large_language_model_sample("<YOUR PROJECT ID>", "text-bison", 1, 582, 0.81, 40, 
         '''Create a short story for a child of age 4 to 10 which includes the characters {characters} and plays in the locations {locations} 
         and is about the lessons in life of {lessons}. Start the story with "Once upon a time..". End the story with "and now it is time to 
         go to sleep. Great that we could experience this story together. Talk to you tomorrow... Your bedtime stories team. The maximum output 
